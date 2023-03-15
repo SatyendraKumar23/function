@@ -1,0 +1,19 @@
+import java.util.*;
+public class evenodd {
+    public static boolean oddeven(int n)
+    {
+        if(n%2==0)
+        {
+            return true;
+        }
+        else{
+            return false;
+        }
+
+    }
+    public static void main(String[] args) {
+        System.out.println(oddeven(6));
+        
+    }
+    
+}
